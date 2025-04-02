@@ -1,0 +1,13 @@
+name: VeynosSimpleTwitchChat
+version: '1.0'
+main: eu.veyno.veynosSimpleTwitchChat.VeynosSimpleTwitchChat
+api-version: '1.21'
+commands:
+  twitch:
+    usage: /twitch
+    description: disable or enable the livestream chat
+    permission: twitchchat.configure
+
+permissions:
+  twitchchat.configure:
+    default: op
